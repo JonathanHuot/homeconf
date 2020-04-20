@@ -143,7 +143,7 @@ bindsym XF86AudioMute exec amixer -q set Speaker toggle
 bindsym XF86AudioMicMute exec amixer -q set Mic toggle
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
-bindsym XF86Display exec true
+bindsym XF86Display exec mons -n right
 #bindsym XF86WLAN => already managed by... who ???
 bindsym XF86Tools exec true
 bindsym XF86Search exec true
